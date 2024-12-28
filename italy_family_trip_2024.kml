@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>이탈리아 가족여행 2024-25</name>
+    
+    <!-- Style for icons -->
+    <Style id="hotel">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>1.1</scale>
+      </IconStyle>
+    </Style>
+    <Style id="attraction">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>1.1</scale>
+      </IconStyle>
+    </Style>
+    <Style id="restaurant">
+      <IconStyle>
+        <color>ff00ffff</color>
+        <scale>1.1</scale>
+      </IconStyle>
+    </Style>
+    <Style id="transport">
+      <IconStyle>
+        <color>ff00ff00</color>
+        <scale>1.1</scale>
+      </IconStyle>
+    </Style>
+
+    <!-- Rome Hotels -->
+    <Placemark>
+      <name>Pantera Holiday House</name>
+      <description>
+        체크인: 2024-12-29 15:00-18:00
+        체크아웃: 2025-01-02 10:00
+        전화: +393662455079
+        주소: 18b Piazza di S. Giovanni in Laterano, 00184 Roma
+      </description>
+      <styleUrl>#hotel</styleUrl>
+      <Point>
+        <coordinates>12.5027,41.8892,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Via Gallia Apartment</name>
+      <description>
+        체크인: 2025-01-03 15:00
+        체크아웃: 2025-01-06 08:00
+        전화: +393292296624
+        주소: 122 Via Gallia, 00183 Roma
+      </description>
+      <styleUrl>#hotel</styleUrl>
+      <Point>
+        <coordinates>12.5107,41.8805,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Florence Hotel -->
+    <Placemark>
+      <name>Residence Porta Al Prato</name>
+      <description>
+        체크인: 2025-01-02 14:30-22:30
+        체크아웃: 2025-01-03 11:00
+        주소: Via Ponte Alle Mosse, 16, 50144 Firenze
+      </description>
+      <styleUrl>#hotel</styleUrl>
+      <Point>
+        <coordinates>11.2468,43.7792,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Rome Attractions -->
+    <Placemark>
+      <name>Colosseum</name>
+      <description>
+        방문일: 2024-12-30
+        입장시간: 10:45
+        가격: 18유로/인
+      </description>
+      <styleUrl>#attraction</styleUrl>
+      <Point>
+        <coordinates>12.4924,41.8902,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Naples Attractions -->
+    <Placemark>
+      <name>Napoli Duomo</name>
+      <description>
+        방문일: 2024-12-31
+        주소: Via Duomo, 147, 80138 Napoli
+      </description>
+      <styleUrl>#attraction</styleUrl>
+      <Point>
+        <coordinates>14.2587,40.8518,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>L'Antica Pizzeria da Michele</name>
+      <description>
+        방문일: 2024-12-31
+        유명한 나폴리 피자집
+        주소: Via Cesare Sersale, 1, 80139 Napoli
+      </description>
+      <styleUrl>#restaurant</styleUrl>
+      <Point>
+        <coordinates>14.2608,40.8505,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Continue with more attractions, restaurants, and transport locations -->
+    
+  </Document>
+</kml>
