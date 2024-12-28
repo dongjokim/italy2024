@@ -74,15 +74,54 @@
 
     <!-- Rome Attractions -->
     <Placemark>
-      <name>Colosseum</name>
+      <name>[12/30 10:45] Colosseum</name>
       <description>
         방문일: 2024-12-30
         입장시간: 10:45
         가격: 18유로/인
+        예약링크: https://ticketing.colosseo.it/
       </description>
       <styleUrl>#attraction</styleUrl>
       <Point>
         <coordinates>12.4924,41.8902,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>[12/30 12:00] 포로 로마노</name>
+      <description>
+        방문일: 2024-12-30
+        방문시간: 12:00-14:00
+        콜로세움 티켓으로 입장 가능
+      </description>
+      <styleUrl>#attraction</styleUrl>
+      <Point>
+        <coordinates>12.4853,41.8925,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>[12/30 14:00] 팔라티노 언덕</name>
+      <description>
+        방문일: 2024-12-30
+        방문시간: 14:00-16:00
+        콜로세움 티켓으로 입장 가능
+      </description>
+      <styleUrl>#attraction</styleUrl>
+      <Point>
+        <coordinates>12.4872,41.8894,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>[12/30 16:30] 캄피돌리오</name>
+      <description>
+        방문일: 2024-12-30
+        방문시간: 16:30-17:30
+      </description>
+      <styleUrl>#attraction</styleUrl>
+      <Point>
+        <coordinates>12.4826,41.8935,0</coordinates>
       </Point>
     </Placemark>
 
@@ -112,7 +151,141 @@
       </Point>
     </Placemark>
 
-    <!-- Continue with more attractions, restaurants, and transport locations -->
-    
+    <!-- Naples Day Trip -->
+    <Placemark>
+      <name>[12/31] Napoli Centrale Station</name>
+      <description>
+        도착: 09:00
+        출발: 18:20
+        로마행 기차
+      </description>
+      <styleUrl>#transport</styleUrl>
+      <Point>
+        <coordinates>14.2725,40.8518,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>[12/31 10:00] Napoli Duomo</name>
+      <description>
+        방문시간: 10:00-11:30
+        주소: Via Duomo, 147
+      </description>
+      <styleUrl>#attraction</styleUrl>
+      <Point>
+        <coordinates>14.2587,40.8518,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>[12/31 11:30] Spaccanapoli</name>
+      <description>
+        방문시간: 11:30-13:00
+        나폴리의 유명한 거리
+      </description>
+      <styleUrl>#attraction</styleUrl>
+      <Point>
+        <coordinates>14.2573,40.8497,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>[12/31 13:00] L'Antica Pizzeria da Michele</name>
+      <description>
+        방문시간: 13:00-14:30
+        나폴리 최고의 피자집
+        주소: Via Cesare Sersale, 1
+      </description>
+      <styleUrl>#restaurant</styleUrl>
+      <Point>
+        <coordinates>14.2608,40.8505,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Rome Day 3 -->
+    <Placemark>
+      <name>[1/1] 베네치아 광장</name>
+      <description>
+        전망대: 15유로
+      </description>
+      <styleUrl>#attraction</styleUrl>
+      <Point>
+        <coordinates>12.4826,41.8958,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>[1/1] 판테온</name>
+      <description>
+        입장료: 5유로
+      </description>
+      <styleUrl>#attraction</styleUrl>
+      <Point>
+        <coordinates>12.4768,41.8986,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Rome Restaurants -->
+    <Placemark>
+      <name>Giolitti Gelato</name>
+      <description>
+        추천: 과일 맛
+        로마에서 가장 유명한 젤라또
+      </description>
+      <styleUrl>#restaurant</styleUrl>
+      <Point>
+        <coordinates>12.4779,41.9001,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Hostaria de' Pastini</name>
+      <description>
+        위치: 판테온 근처
+        추천: 파스타 (덜 짜게 요청)
+      </description>
+      <styleUrl>#restaurant</styleUrl>
+      <Point>
+        <coordinates>12.4775,41.8995,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Florence Restaurants -->
+    <Placemark>
+      <name>Osteria Pastella</name>
+      <description>
+        추천: 트러플 파스타, 문어요리
+        오픈시간 20분 전 도착 추천
+      </description>
+      <styleUrl>#restaurant</styleUrl>
+      <Point>
+        <coordinates>11.2502,43.7746,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Dall'Oste</name>
+      <description>
+        예약 필수
+        추천: 티본스테이크 (1.2kg)
+      </description>
+      <styleUrl>#restaurant</styleUrl>
+      <Point>
+        <coordinates>11.2485,43.7739,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Trattoria ZaZa</name>
+      <description>
+        주소: Piazza del Mercato Centrale, 26r
+        추천: 감베리 파스타, 트러플 크림 토르텔리니
+      </description>
+      <styleUrl>#restaurant</styleUrl>
+      <Point>
+        <coordinates>11.2531,43.7746,0</coordinates>
+      </Point>
+    </Placemark>
+
   </Document>
 </kml>
